@@ -16,11 +16,262 @@ body {
 .full-screen {
   padding: 8rem 0;
 }
-/* image about */
-.about-image-about {
+/* image Hero */
+.image-hero {
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
 }
+.image-hero:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/* Animated column */
+
+
+/* flag */
+.flag {
+  display: block;
+
+  flex-direction: row;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  width: 300px;
+  padding: 10px 0;
+  margin: 0 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+
+
+  /* background: rgba(105, 105, 105, 0.5); */
+}
+.wrapper2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  width: 300px;
+  padding: 10px 0;
+  margin: 0 20px;
+  border-radius: 10px;
+
+
+  /* background: rgba(105, 105, 105, 0.5); */
+}
+
+.holder{
+  position: relative;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5em;
+  width: 1.5em;
+  padding: 5px;
+  border-radius: 10%;
+  font-size: 2em;
+  
+  transition: all 0.5s ease;
+}
+
+.tooltip{
+  position: absolute;
+  padding: 5px 20px;
+  font-weight: bold;
+  top: 0%;
+  left: 0%;
+  transform: translate(-25%, -35px);
+  font-size: 1em;
+  border-radius: 50px;
+  color: #5b5b5b;
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 0;
+}
+
+.tooltip::before{
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  transform: translate(1.3rem, 15px) rotate(45deg);
+  z-index: -2;
+  outline: none;
+  border: none;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.UEA .tooltip::before,
+.Switzerland .tooltip::before{
+  transform: translate(1.7rem, 15px) rotate(45deg);
+}
+
+.Canada .tooltip::before{
+  transform: translate( 1.6rem, 15px) rotate(45deg);
+}
+
+.icon:hover ~ .tooltip{
+  transform: translate(-25%, -60px) ;
+  opacity: 1;
+}
+
+.icon:hover{
+  color: #FFF;
+}
+
+.UEA .icon:hover,
+.UEA .icon:hover ~ .tooltip,
+.UEA .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+
+.Australia .icon:hover,
+.Australia .icon:hover ~ .tooltip,
+.Australia .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+
+.Bulgaria .icon:hover,
+.Bulgaria .icon:hover ~ .tooltip,
+.Bulgaria .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+
+.Canada .icon:hover ~ .tooltip,
+.Canada .icon:hover ~ .tooltip::before,
+.Canada .icon:hover{
+  background: #eee;
+}
+
+.Switzerland .icon:hover,
+.Switzerland .icon:hover ~ .tooltip,
+.Switzerland .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Germany .icon:hover,
+.Germany .icon:hover ~ .tooltip,
+.Germany .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Spain .icon:hover,
+.Spain .icon:hover ~ .tooltip,
+.Spain .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.France .icon:hover,
+.France .icon:hover ~ .tooltip,
+.Spain .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.UK .icon:hover,
+.UK .icon:hover ~ .tooltip,
+.UK .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.India .icon:hover,
+.India .icon:hover ~ .tooltip,
+.India .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Italy .icon:hover,
+.Italy .icon:hover ~ .tooltip,
+.Italy .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Malaysia .icon:hover,
+.Malaysia .icon:hover ~ .tooltip,
+.Malaysia .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Netherlands .icon:hover,
+.Netherlands .icon:hover ~ .tooltip,
+.Netherlands .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Norway .icon:hover,
+.Norway .icon:hover ~ .tooltip,
+.Norway .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.New_Zealand .icon:hover,
+.New_Zealand .icon:hover ~ .tooltip,
+.New_Zealand .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Panama .icon:hover,
+.Panama .icon:hover ~ .tooltip,
+.Panama .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Pakistan .icon:hover,
+.Pakistan .icon:hover ~ .tooltip,
+.Pakistan .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Romania .icon:hover,
+.Romania .icon:hover ~ .tooltip,
+.Romania .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Saudi .icon:hover,
+.Saudi .icon:hover ~ .tooltip,
+.Saudi .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Sweden .icon:hover,
+.Sweden .icon:hover ~ .tooltip,
+.Sweden .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Singapore .icon:hover,
+.Singapore .icon:hover ~ .tooltip,
+.Singapore .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Ukraine .icon:hover,
+.Ukraine .icon:hover ~ .tooltip,
+.Ukraine .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.US .icon:hover,
+.US .icon:hover ~ .tooltip,
+.US .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Indonesia .icon:hover,
+.Indonesia .icon:hover ~ .tooltip,
+.Indonesia .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+.Japan .icon:hover,
+.Japan .icon:hover ~ .tooltip,
+.Japan .icon:hover ~ .tooltip::before{
+  background: #eee;
+}
+
+
+/* end here */
 .small-text {
   color: #5b5b5b;
   font-size: 14px;
@@ -44,7 +295,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ffc200 !important;
+  color: #c79900 !important;
 }
 
 .navbar-brand .uil {
@@ -94,6 +345,7 @@ b, strong {
   line-height: normal;
   overflow: hidden;
   transition: all 0.4s ease;
+  margin-top: 30px;
 }
 .custom-btn:hover {
   color: #ffc200;
@@ -322,253 +574,4 @@ b, strong {
   color: #ffffff;
 }
 
-.timeline-wrapper {
-  position: relative;
-  padding: 22px 0;
-}
-.timeline-wrapper:last-child:before {
-  height: 0;
-}
-.timeline-wrapper:before {
-  content: "";
-  background: #474559;
-  width: 3px;
-  height: 100%;
-  position: absolute;
-  left: 38px;
-}
 
-.timeline-yr {
-  background: #474559;
-  border-radius: 100%;
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  line-height: 75px;
-  text-align: center;
-}
-.timeline-yr span {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  display: block;
-  line-height: 75px;
-}
-
-.timeline-info {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 432px;
-  margin-left: 6em;
-}
-.timeline-info small {
-  color: #474559;
-  font-size: 16px;
-  font-weight: bold;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 15px;
-}
-
-.owl-carousel .owl-nav span {
-  display: none;
-}
-.owl-carousel .owl-nav .owl-prev:before,
-.owl-carousel .owl-nav .owl-next:before {
-  background: none;
-  padding: 0;
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  font-family: 'unicons';
-  font-size: 100px;
-  line-height: normal;
-}
-.owl-carousel .owl-nav .owl-prev:before {
-  content: '\e833';
-  left: -45px;
-}
-.owl-carousel .owl-nav .owl-next:before {
-  content: '\e836';
-  right: -45px;
-}
-
-.owl-theme .owl-nav [class*=owl-] {
-  background: none;
-  border-radius: 0;
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
-}
-.owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffc200;
-}
-.owl-theme .owl-dots .owl-dot {
-  outline: none;
-}
-.owl-theme .owl-dots .owl-dot span {
-  width: 8px;
-  height: 8px;
-}
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #5b5b5b;
-}
-
-.google-map iframe {
-  width: 100%;
-}
-
-.contact-form {
-  position: relative;
-}
-.contact-form .form-control {
-  background: transparent;
-  border-radius: 2px;
-  outline: none;
-  box-shadow: none;
-  font-weight: bold;
-  margin: 16px 0;
-}
-.contact-form .form-control:not(textarea) {
-  height: 48px;
-}
-.contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ffc200;
-}
-.contact-form .submit-btn {
-  background: #ffc200;
-  border-radius: 50px;
-  color: #ffffff;
-  font-weight: bold;
-  border: 0;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-.contact-form .submit-btn:hover {
-  background: #474559;
-}
-
-.contact-info {
-  background: #474559;
-  border-radius: 0 0 3px 3px;
-  position: relative;
-  bottom: 8px;
-}
-.contact-info p, .contact-info a {
-  color: #f7f3f3;
-}
-
-.social-links .uil {
-  color: #f7f3f3;
-  font-size: 20px;
-  display: block;
-  margin: 5px 0;
-}
-.social-links .uil:hover {
-  color: #ffc200;
-}
-
-@media (min-width: 1270px) {
-  .owl-theme .owl-dots {
-    position: relative;
-    bottom: 50px;
-  }
-}
-@media (max-width: 991px) {
-  .full-screen {
-    padding-bottom: 4rem;
-  }
-
-  .color-mode {
-    display: none;
-  }
-
-  .about-image {
-    margin-top: 4em;
-  }
-
-  .mobile-mt-2,
-  .contact-form {
-    margin-top: 2em;
-  }
-
-  .contact-info {
-    padding: 0 2rem;
-  }
-}
-@media (max-width: 767px) {
-  h1 {
-    font-size: 2.4em;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  .animated-item {
-    font-size: 28px;
-  }
-
-  .navbar-collapse {
-    background: #ffffff;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  .navbar-expand-sm .navbar-nav .nav-link {
-    padding: 3px 20px;
-  }
-}
-@media (max-width: 580px) {
-	.animated-info {
-		min-width: 200px;
-	}
-  .animated-item {
-    font-size: 30px;
-  }
-
-  .custom-btn-group {
-    text-align: center;
-  }
-
-  .custom-btn {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .owl-theme .owl-nav {
-    display: none;
-  }
-
-  .timeline-info small {
-    display: block;
-    margin: 10px 0 0 0;
-  }
-}
-@media (max-width: 320px) {
-  .animated-text {
-    margin-top: 0;
-  }
-
-  .about-text {
-    text-align: center;
-  }
-
-  .full-screen {
-    padding: 4rem 0;
-  }
-
-  .mobile-block {
-    display: block;
-  }
-
-  .contact-info {
-    flex-direction: column;
-  }
-
-  .social-links li {
-    display: inline-block;
-    vertical-align: top;
-  }
-}
