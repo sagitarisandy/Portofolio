@@ -33,4 +33,15 @@
     // TOOLTIP
     $('.social-links a').tooltip();
 
+    function showText(element) {
+      const text = element.querySelector(".ct-blog-text");
+      text.classList.add("ct-blog-text-hidden");
+  }
+  
+  function hideText(element) {
+      const text = element.querySelector(".ct-blog-text");
+      text.classList.remove("ct-blog-text-hidden");
+  }
+  
+
 })(jQuery);
