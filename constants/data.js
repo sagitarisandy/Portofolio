@@ -2,10 +2,10 @@ const userData = {
   githubUsername: 'Ryandinulfatah12',
   name: 'Arya Sagitarisandy',
   fullname: 'Arya Fadhil Sagitarisandy',
-  title: 'Building a successful product is a challenge. I am highly energetic in user experience design and interfaces. Also I am currently studying web and app development',
+  title: 'Building a successful product is a challenge. I am highly energetic in user experience design and interfaces',
   status: '#UI/X & Graphic Designer @SQMProperty',
   country: '🇮🇩 Indonesia',
-  desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  desc: 'Highly skilled and creative designer, holding a degree in interactive design with over 5 years of experience in UI and UX design. Passionate about user-centered design, boasting a proven track record in delivering exceptional digital experiences. Renowned for expertise in crafting engaging and delightful user interfaces, making me an ideal choice for any UX design project.',
   navLink: [
     { href: '/', label: 'Arya' },
     { href: '/about', label: 'About' },
@@ -203,37 +203,32 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/file/d/1PRi_nqHr526zvo3uaDZ3j5c-QjxVidOV/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1sRE0uCM1-EQ96DzR2p-2GIvNqg3VVMb8/view?usp=sharing',
     },
     {
       id: 2,
-      text: 'My Github',
-      url: 'https://github.com/Ryandinulfatah12',
+      text: 'My Dribbble',
+      url: 'https://dribbble.com/sagitarisandy/shots',
     },
     {
       id: 3,
       text: 'My Instagram',
-      url: 'https://www.instagram.com/ryandinulfatah12/',
+      url: 'https://www.instagram.com/sagitarisandy/',
     },
     {
       id: 4,
       text: 'Send me an email',
-      url: 'mailto:dinulfatahryan@gmail.com',
+      url: 'mailto:sagitarisandybusiness@gmail.com',
     },
     {
       id: 5,
       text: 'My Linkedin',
-      url: 'https://www.linkedin.com/in/ryandinulfatah/',
+      url: 'https://www.linkedin.com/in/arya-sagitarisandy-b140831a8/',
     },
     {
       id: 6,
-      text: 'My Facebook',
-      url: 'https://www.facebook.com/ryandinulfatah',
-    },
-    {
-      id: 7,
-      text: 'My Medium',
-      url: 'https://medium.com/@ryandinulfatah',
+      text: 'My Github',
+      url: 'https://github.com/sagitarisandy',
     }
   ],
   sertifikasi: [
