@@ -128,12 +128,13 @@ const userData = {
     }
   ],
   testimonials: [
+    
     {
       id: 1,
-      name: 'Himanshu Batra',
-      desc: 'Hes gold on this field. You shouldnt look further if youre looking for an illustration or website design. I had fun working with him on our website. He has built a full website confidently, and small changes went smoothly, and he had no issue with tiny changes or re-work. If youre looking for UI design, Figma Web Sites & Illustration for your website, he should be your go-to guy. Dont look any further. I highly recommend him for any web design-related projects. Must use.',
-      profile: '/img/certificate/asharib-naseer.webp',
-      country: '🇺🇸 United States',
+      name: 'Camping Store Panama',
+      desc: 'It was wonderful working with Arya. He was very patient, talented, and very responsive. He quickly got the idea of what we needed. He chose a colour palette that goes perfect with our branding. The artwork turned out more awesome than  expected!  Im sure I will work with Arya again.',
+      profile: '/img/certificate/camping-store.jpg',
+      country: '🇵🇦 Panama',
     },
     {
       id: 2,
@@ -193,11 +194,11 @@ const userData = {
     },
     {
       id: 10,
-      name: 'Camping Store Panama',
-      desc: 'It was wonderful working with Arya. He was very patient, talented, and very responsive. He quickly got the idea of what we needed. He chose a colour palette that goes perfect with our branding. The artwork turned out more awesome than  expected!  Im sure I will work with Arya again.',
-      profile: '/img/certificate/camping-store.jpg',
-      country: '🇵🇦 Panama',
-    }
+      name: 'Himanshu Batra',
+      desc: 'Hes gold on this field. You shouldnt look further if youre looking for an illustration or website design. I had fun working with him on our website. He has built a full website confidently, and small changes went smoothly, and he had no issue with tiny changes or re-work. If youre looking for UI design, Figma Web Sites & Illustration for your website, he should be your go-to guy. Dont look any further. I highly recommend him for any web design-related projects. Must use.',
+      profile: '/img/certificate/asharib-naseer.webp',
+      country: '🇺🇸 United States',
+    },
   ],
   link: [
     {
