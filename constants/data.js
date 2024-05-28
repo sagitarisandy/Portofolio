@@ -11,7 +11,7 @@ const userData = {
     { href: '/about', label: 'About' },
     { href: '/work', label: 'Work' },
     // { href: '/articles', label: 'Articles' },
-    { href: '/achievement', label: 'Testimonials' },
+    { href: '/achievement', label: 'What People Say' },
     { href: '/link', label: 'Get in touch' },
   ],
   project: [
@@ -204,7 +204,7 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/file/d/1ah7YOvqk0eYhmSs56WGplI6WASDRqESd/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1qb7TPNq1L2OwJYo4cVHbrl7s2zaSLH_u/view?usp=sharing',
     },
     {
       id: 2,
@@ -219,7 +219,7 @@ const userData = {
     {
       id: 4,
       text: 'Send me an email',
-      url: 'mailto:sagitarisandybusiness@gmail.com',
+      url: 'mailto:sagitarisandyarya@gmail.com',
     },
     {
       id: 5,
