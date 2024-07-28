@@ -16,7 +16,7 @@ export default function Certificate() {
   return (
     <>
       <div className="mt-4 p-4">
-        <h1 className="mb-6 text-left text-3xl font-semibold">💬 Testimonials</h1>
+        <h1 className="mb-6 text-left text-3xl font-semibold">🌏 What people say around the world</h1>
         <div className="xs:grid-cols-1 grid grid-cols-1 items-left justify-left gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2">
           {userData.testimonials.map((item) => (
             <div

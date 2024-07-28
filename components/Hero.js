@@ -34,14 +34,21 @@ export default function Hero() {
               <div className="my-3 text-gray-800 dark:text-white">
                 <p className="mb-7">{userData.title}</p>
               </div>
-              <Link href="/about" onClick={linkClick} legacyBehavior>
+              {/* <Link href="/about" onClick={linkClick} legacyBehavior>
                 <a
                   className="h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300"
                 >
                   Get more about me
                 </a>
+              </Link> */}
+
+              <Link href="https://drive.google.com/file/d/1_6LoLRxurPZxoqK9fQKOgVeKbAaULUAK/view?usp=drive_link" onClick={linkClick} legacyBehavior>
+                <a
+                  className="h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300"
+                >
+                  📃 View My Resume
+                </a>
               </Link>
-              
            </div>
 
            <div className="text-left my-24 rounded-md bg-gray-100 dark:bg-gray-800 p-6">

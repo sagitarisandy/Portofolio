@@ -1,16 +1,26 @@
 import React, { useState } from 'react'
 import userData from '../constants/data'
+import Link from 'next/link';
 
 import CardProject from './micro/CardProject'
 export default function Project() {
   //   console.log(userData.project)
   const [item, setItem] = useState(userData.project)
+  const navLinks = userData.navLink;
+  const [activeLinks, setActiveLinks] = useState(Array(navLinks.length).fill(false));
 
   const [selectedStack, setSelectedStack] = useState('All'); // Default selection
   const [selectedCountry, setSelectedCountry] = useState('All');
 
   const handleStackChange = (event) => {
     setSelectedStack(event.target.value);
+  };
+
+  const linkClick = (index) => {
+    const newActiveLinks = [...activeLinks];
+    newActiveLinks[index] = !newActiveLinks[index];
+    setActiveLinks(newActiveLinks);
+    handleClick();
   };
 
   const handleCountryChange = (event) => {
@@ -61,9 +71,21 @@ export default function Project() {
     <>
       <div>
         <div id="work">
-          <h1 className="px-3 text-left text-3xl font-extrabold text-slate-800 dark:text-white lg:ml-1">
-            I am happy to present digitalization that helps many people, it's my fuel&#128640;
-          </h1>
+          <div>
+            <h1 className="mb-8 px-3 text-left text-3xl font-extrabold text-slate-800 dark:text-white lg:ml-1">
+              I am happy to present digitalization that helps many people, it's my fuel&#128640;
+            </h1>
+
+            <Link href="/about" onClick={linkClick} legacyBehavior>
+                <a
+                  className="ml-4 h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300"
+                >
+                  📖 Download to Preview My Portofolio
+                </a>
+              </Link>
+
+          </div>
+          
 
           <div className='flex flex-row justify-left pt-5'>
             {/* Filter */}

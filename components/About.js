@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import userData from '../constants/data'
 import Timeline from './micro/Timeline'
-import Arya from '../public/arya.jpg'
+import Arya from '../public/arya.png'
 import Image from 'next/image'
 
 export default function About() {
