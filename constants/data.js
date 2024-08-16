@@ -5,7 +5,7 @@ const userData = {
   title: 'Building a successful product is a challenge. I am highly energetic in user experience design and interfaces',
   status: '#UI/X & Graphic Designer @SQMProperty',
   country: '🇮🇩 Indonesia',
-  desc: 'Highly skilled and creative designer, holding a degree in interactive design with over 5 years of experience in UI and UX design. Passionate about user-centered design, boasting a proven track record in delivering exceptional digital experiences. Renowned for expertise in crafting engaging and delightful user interfaces, making me an ideal choice for any UX design project.',
+  desc: 'Thanks to my family background in printing and design. Growing up, I was always surrounded by creativity, and I started using tools like Photoshop and CorelDraw at a young age. With a bachelor`s degree in computer engineering, I am familiar with components in react, react native, and widgets in flutter. And another thing is I am easy to get along with someone even I have worked with more than 22+ countries, making me more active in finding User Experience and User Interface.',
   navLink: [
     { href: '/', label: 'Arya' },
     { href: '/about', label: 'About' },
