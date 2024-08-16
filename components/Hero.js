@@ -52,7 +52,7 @@ export default function Hero() {
                     </span>
                     <span className='ml-1 mr-1'>&</span>
                     <span className='underline tooltip'>
-                      💼 business
+                      💼 business<br/>
                       <span className='tooltiptext'>Thanks to my family's background in printing and design. Growing up, I was always surrounded by creativity, and I started using tools like Photoshop and CorelDraw at a young age.</span>
                     </span>
                     background
