@@ -72,13 +72,13 @@ export default function Project() {
       <div>
         <div id="work">
           <div>
-            <h1 className="mb-8 px-3 text-left text-3xl font-extrabold text-slate-800 dark:text-white lg:ml-1">
+            <h1 className="mb-8 px-3 text-left text-3xl font-extrabold text-slate-800 dark:text-white lg:ml-1 animate-fade-in">
               I am happy to present digitalization that helps many people, it's my fuel&#128640;
             </h1>
 
             <Link href="/about" onClick={linkClick} legacyBehavior>
                 <a
-                  className="ml-4 h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300"
+                  className="ml-4 h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300 animate-fade-in"
                 >
                   📖 Download to Preview My Portofolio
                 </a>
@@ -90,12 +90,12 @@ export default function Project() {
           <div className='flex flex-row justify-left pt-5'>
             {/* Filter */}
             <div className='text-left my-5 mx-3'>
-              <label htmlFor="stackFilter" className="text-sm block font-regular text-gray-500 dark:text-white">Filter by Stack:</label>
+              <label htmlFor="stackFilter" className="text-sm block font-regular text-gray-500 dark:text-white animate-fade-in">Filter by Stack:</label>
               <select
                 id="stackFilter"
                 onChange={handleStackChange}
                 value={selectedStack}
-                className="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm"
+                className="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm animate-fade-in"
               >
                 <option value="All">All</option>
                 {dropdownOptions}
@@ -104,12 +104,12 @@ export default function Project() {
 
             {/* Country Filter */}
             <div className='text-left my-5 mx-3'>
-              <label htmlFor="stackFilter" className="text-sm block font-regular text-gray-500 dark:text-white">Filter by Country:</label>
+              <label htmlFor="stackFilter" className="text-sm block font-regular text-gray-500 dark:text-white animate-fade-in">Filter by Country:</label>
               <select
                 id="stackFilter"
                 onChange={handleCountryChange}
                 value={selectedCountry}
-                className="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm"
+                className="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm animate-fade-in"
               >
                 <option value="All">All</option>
                 {dropdownCountrys}
@@ -119,7 +119,7 @@ export default function Project() {
 
 
           {/* New Card */}
-          <div className="xs:grid-cols-1 grid items-center justify-center gap-4 py-2 px-2 md:grid-cols-2">
+          <div className="xs:grid-cols-1 grid items-center justify-center gap-4 py-2 px-2 md:grid-cols-2 animate-fade-in">
             {filteredProjects.map((project) => (
               <CardProject project={project} />
             ))}

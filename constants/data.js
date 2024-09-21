@@ -156,10 +156,22 @@ const userData = {
     },
     {
       id: 2,
-      title: 'Freelance illustrator, UI/X designer, and graphic designer',
-      year: '2016 - 2022',
-      desc: '<ul> <li><span>⚪ Helping various startups in a total of 22+ countries in the field of UI/X and graphic designers</span></li> <li><span>⚪ Communicate using English and understanding business models.</span></li><li><span>⚪ Adjust the style according to the clients request or fulfill the clients wishes</span></li></ul>',
-    }
+      title: 'Soluty Renting',
+      year: 'Jan 2022 - Mei 2022',
+      desc: '<ul> <li><span>⚪ User Interface research comparing the German car rental market.</span></li> <li><span>⚪ Direct communication with the CEO and CTO and listening to their needs.</span></li><li><span>⚪ Creating illustration assets for the website</span></li></ul>',
+    },
+    {
+      id: 3,
+      title: 'Sylaps',
+      year: 'Apr 2021 - Okt 2021',
+      desc: '<ul> <li><span>⚪ Communication and understanding market needs by considering competitors using qualitative research methods, in-depth interviews, and competitor analysis.</span></li> <li><span>⚪ Implementation of user interfaces according to research methods.</span></li><li><span>⚪ Communication with Product Owners, listening to what they need.</span></li></ul> ⚪ Creation of illustration & Icon  assets.</span></li></ul>',
+    },
+    {
+      id: 4,
+      title: 'Gurulabs',
+      year: 'Nov 2020 - Feb  2021',
+      desc: '<ul> <li><span>⚪ Web service creation for digital marketing agencies.</span></li> <li><span>⚪ Landing page creation, by conducting research from competitors in the same field.</span></li><li><span>⚪ Implementation of strategies on landing pages that influence readers to be interested in the services.</span></li></ul> ⚪ Detailed asset creation, layout, and research for UX writing.</span></li></ul>',
+    },
   ],
   social: [
     {
@@ -247,10 +259,10 @@ const userData = {
     },
     {
       id: 2,
-      name: 'Jacob',
-      desc: 'His work is amazing and beyond my expectations. I would recommend him to everyone. He did many revisions with speed and no complaints. Hes the man! He also gave my advice on the design of my website, which is excellent.',
-      profile: '/img/certificate/jacob.webp',
-      country: '🇳🇿 New Zealand',
+      name: 'Soluty Renting',
+      desc: 'Really great work! The communication was easy, he totally understood our needs and gave us a excellent work. Hope we collaborate further',
+      profile: '/Logo/soluty-renting-logo.png',
+      country: '🇪🇸 Spain',
     },
     {
       id: 3,
@@ -307,6 +319,13 @@ const userData = {
       desc: 'Hes gold on this field. You shouldnt look further if youre looking for an illustration or website design. I had fun working with him on our website. He has built a full website confidently, and small changes went smoothly, and he had no issue with tiny changes or re-work. If youre looking for UI design, Figma Web Sites & Illustration for your website, he should be your go-to guy. Dont look any further. I highly recommend him for any web design-related projects. Must use.',
       profile: '/img/certificate/asharib-naseer.webp',
       country: '🇺🇸 United States',
+    },
+    {
+      id: 11,
+      name: 'Jacob',
+      desc: 'His work is amazing and beyond my expectations. I would recommend him to everyone. He did many revisions with speed and no complaints. Hes the man! He also gave my advice on the design of my website, which is excellent.',
+      profile: '/img/certificate/jacob.webp',
+      country: '🇳🇿 New Zealand',
     },
   ],
   link: [

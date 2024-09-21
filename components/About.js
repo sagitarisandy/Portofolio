@@ -24,7 +24,7 @@ export default function About() {
   return (
     <>
       <div className="mt-4 p-4">
-        <h1 className="mb-6 text-left text-3xl font-semibold">
+        <h1 className="mb-6 text-left text-3xl font-semibold animate-fade-in">
           Glad to see, You can call me Arya
         </h1>
         <div className="">
@@ -33,31 +33,31 @@ export default function About() {
               src={Arya}
               alt="Profile"
               priority={true}
-              className="rounded-full"
+              className="rounded-full animate-fade-in"
               width={150}
               height={150}
               placeholder="blur"
             />
             <div>
-              <span className="ml-5 mb-4 inline-block italic bg-gray-100 dark:bg-neutral-800 rounded-md p-2">{userData.country}</span>
-              <div className="ml-5">
+              <span className="ml-5 mb-4 inline-block italic bg-gray-100 dark:bg-neutral-800 rounded-md p-2 animate-fade-in">{userData.country}</span>
+              <div className="ml-5 animate-fade-in">
   <p>{showFullDescription ? userData.desc : userData.desc.slice(0, maxLength)}{userData.desc.length > maxLength && !showFullDescription && '...'}</p>
   {!showFullDescription && userData.desc.length > maxLength && (
-    <button className="text-late-800 hover:underline font-bold" onClick={() => setShowFullDescription(true)}>Read More</button>
+    <button className="text-late-800 hover:underline font-bold animate-fade-in" onClick={() => setShowFullDescription(true)}>Read More</button>
   )}
 </div>
             </div>
           </div>
-          <div className="my-5">
+          <div className="my-5 animate-fade-in">
             <Timeline />
           </div>
         </div>
 
         {/* Stack section */}
-        <h2 className="mt-9 mb-5 text-left text-3xl font-semibold">
+        <h2 className="mt-9 mb-5 text-left text-3xl font-semibold animate-fade-in">
         💪 Tools I frequently use
         </h2>
-        <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2">
+        <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2 animate-fade-in">
           {userData.techStack.map((item) => (
             <div className="justify-center overflow-hidden rounded-xl p-4 text-center shadow-md duration-500 ease-in-out hover:scale-105 hover:cursor-default hover:shadow-xl dark:bg-slate-800">
               <img
