@@ -41,7 +41,7 @@ export default function Hero() {
               </div>
               <div className="md:ml-4 mt-4 md:mt-0 animate-fade-in">
                 <h1 className="text-3xl font-semibold text-gray-900 dark:text-white lg:text-3xl">
-                  Design for Digital Products in tech
+                  Research, Design and Code
                 </h1>
                 <div className="my-3 text-gray-800 dark:text-white">
                   <p className="mb-7">

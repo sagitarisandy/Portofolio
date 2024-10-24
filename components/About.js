@@ -55,7 +55,7 @@ export default function About() {
 
         {/* Stack section */}
         <h2 className="mt-9 mb-5 text-left text-3xl font-semibold animate-fade-in">
-        💪 Tools I frequently use
+        💪 Tools/technology I frequently use
         </h2>
         <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2 animate-fade-in">
           {userData.techStack.map((item) => (
