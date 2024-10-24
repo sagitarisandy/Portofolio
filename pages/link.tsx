@@ -6,7 +6,7 @@ export default function link() {
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>
-        <title>Arya Fadhil Sagitarisandy</title>
+        <title>Ryan Dinul Fatah</title>
         <meta
             name="description"
             content="Hi, I'm Ryan, nice to meet you. I am someone who likes learning and working in the IT field."
