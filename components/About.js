@@ -41,11 +41,11 @@ export default function About() {
             <div>
               <span className="ml-5 mb-4 inline-block italic bg-gray-100 dark:bg-neutral-800 rounded-md p-2 animate-fade-in">{userData.country}</span>
               <div className="ml-5 animate-fade-in">
-  <p>{showFullDescription ? userData.desc : userData.desc.slice(0, maxLength)}{userData.desc.length > maxLength && !showFullDescription && '...'}</p>
-  {!showFullDescription && userData.desc.length > maxLength && (
-    <button className="text-late-800 hover:underline font-bold animate-fade-in" onClick={() => setShowFullDescription(true)}>Read More</button>
-  )}
-</div>
+                <p>{showFullDescription ? userData.desc : userData.desc.slice(0, maxLength)}{userData.desc.length > maxLength && !showFullDescription && '...'}</p>
+                {!showFullDescription && userData.desc.length > maxLength && (
+                  <button className="text-late-800 hover:underline font-bold animate-fade-in" onClick={() => setShowFullDescription(true)}>Read More</button>
+                )}
+              </div>
             </div>
           </div>
           <div className="my-5 animate-fade-in">

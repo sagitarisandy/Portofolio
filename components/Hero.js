@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import arya from '../public/arya2.png'
+import arya from '../public/sagitarisandy.png'
 import Image from 'next/image'
 import userData from '../constants/data'
 import logo1 from '../public/Logo/logo 1.png'
@@ -12,6 +12,19 @@ import logo6 from '../public/Logo/logo 6.png'
 import logo7 from '../public/Logo/logo 7.png'
 import logo8 from '../public/Logo/logo 8.png'
 import logo9 from '../public/Logo/logo 9.png'
+import logo10 from '../public/Logo/logo 10.png'
+import logo11 from '../public/Logo/logo 11.png'
+import logo12 from '../public/Logo/logo 12.png'
+import logo13 from '../public/Logo/logo 13.png'
+import logo14 from '../public/Logo/logo 14.png'
+import logo15 from '../public/Logo/logo 15.png'
+import logo16 from '../public/Logo/logo 16.png'
+import logo17 from '../public/Logo/logo 17.png'
+import logo18 from '../public/Logo/logo 18.png'
+import logo19 from '../public/Logo/logo 19.png'
+import logo20 from '../public/Logo/logo 20.png'
+import logo21 from '../public/Logo/logo 21.png'
+import logo22 from '../public/Logo/logo 22.png'
 
 export default function Hero() {
   const navLinks = userData.navLink;
@@ -41,9 +54,12 @@ export default function Hero() {
               </div>
               <div className="md:ml-4 mt-4 md:mt-0 animate-fade-in">
                 <h1 className="text-3xl font-semibold text-gray-900 dark:text-white lg:text-3xl">
-                  Research, Design and Code
+                  Fullstack developer,
                 </h1>
-                <div className="my-3 text-gray-800 dark:text-white">
+                <h1 className="text-3xl font-semibold text-gray-900 dark:text-white lg:text-3xl">
+                  has worked with several clients & startups from 🇺🇸🇮🇩🇯🇵🇦🇺🇬🇧🇸🇬🇫🇷🇪🇸🇨🇦🇲🇾🇫🇮🇭🇷🇳🇱🇻🇳🇨🇭🇸🇪🇩🇪🇵🇦🇮🇹🇧🇬🇷🇴🇺🇦🇳🇴🇵🇰
+                </h1>
+                {/* <div className="my-3 text-gray-800 dark:text-white">
                   <p className="mb-7">
                     <span className='mr-1'>With</span>
                     <span className='underline tooltip'>
@@ -57,7 +73,7 @@ export default function Hero() {
                     </span>
                     background
                     </p>
-                </div>
+                </div> */}
                 <div className='my-8'>
                   <Link href="https://drive.google.com/file/d/1_6LoLRxurPZxoqK9fQKOgVeKbAaULUAK/view?usp=drive_link" onClick={linkClick} legacyBehavior>
                     <a
@@ -71,20 +87,33 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="mt-52 container mx-auto px-4">
-            <h1 className="text-[24px] font-bold text-gray-900 dark:text-white lg:text-[24px] text-left md:text-center animate-fade-in">
+          <div className="mt-24 container mx-auto px-4">
+            {/* <h1 className="text-[24px] font-bold text-gray-900 dark:text-white lg:text-[24px] text-left md:text-center animate-fade-in">
               I've worked with several startups across a wide range of industries in a total of 22+ countries.
-            </h1>
+            </h1> */}
             <div className="flex flex-wrap justify-center items-center mt-8 gap-12 animate-fade-in">
+              <Image src={logo12} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo11} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo15} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo20} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo10} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo18} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo8} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo9} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo13} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo1} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo21} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo22} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo5} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo6} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo14} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo2} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo3} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo17} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo19} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo4} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
               <Image src={logo7} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
+              <Image src={logo16} className="dark:mt-6 dark:bg-[#1e293b] dark:rounded-lg h-12 md:h-16 lg:h-20 object-contain" />
             </div>
           </div>
 

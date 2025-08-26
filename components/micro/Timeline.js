@@ -12,10 +12,10 @@ export default function Timeline() {
               <div key={item.id} className="flex md:contents">
                 <div className="relative col-start-2 col-end-4 mr-10 md:mx-auto">
                   <div className="flex h-full w-6 items-center justify-center">
-                    <div className="pointer-events-none h-full w-1 bg-slate-800"></div>
+                    <div className="pointer-events-none h-full w-0.5 bg-slate-300"></div>
                   </div>
-                  <div className="absolute top-1/2 -mt-3 h-6 w-6 rounded-full bg-slate-800 text-center shadow duration-500 ease-in-out hover:scale-105">
-                    ✔
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-3 w-3 rounded-full bg-slate-800 text-center shadow duration-500 ease-in-out hover:scale-105">
+                    
                   </div>
                 </div>
                 <div className="col-start-4 col-end-12 my-4 mr-auto w-full rounded-md bg-slate-800 p-4 shadow-md duration-500 ease-in-out hover:scale-105 hover:cursor-default hover:shadow-xl">
