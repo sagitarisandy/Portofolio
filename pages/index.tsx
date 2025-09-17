@@ -8,7 +8,7 @@ export default function Home() {
         <title>Arya Fadhil Sagitarisandy</title>
         <meta
           name="description"
-          content="I am currently a Backend Developer! I enjoy learning about technology and business. One day, I want to have my own team and contribute to Digitalization in Indonesia and beyond."
+          content="Proficient in React, React Native, Flutter, Next.js, and NestJS, with global team experience across 22+ countries delivering user-centered digital products from UI/UX to IoT and cloud."
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
