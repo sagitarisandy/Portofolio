@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import arya from '../public/sagitarisandy.png'
+import arya from '../public/sagitarisandy.webp'
 import Image from 'next/image'
 import userData from '../constants/data'
 import logo1 from '../public/Logo/logo 1.png'
@@ -75,7 +75,7 @@ export default function Hero() {
                     </p>
                 </div> */}
                 <div className='my-8'>
-                  <Link href="https://drive.google.com/file/d/1_6LoLRxurPZxoqK9fQKOgVeKbAaULUAK/view?usp=drive_link" onClick={linkClick} legacyBehavior>
+                  <Link href="https://drive.google.com/file/d/1gvQ1Wz5gaeyQEH3IuOxm2YdSxEQVGcK9/view?usp=drive_link" onClick={linkClick} legacyBehavior>
                     <a
                       className="h-10 rounded-md bg-gray-800 py-3 px-6 font-semibold text-white hover:bg-black transition duration-300 animate-fade-in"
                     >

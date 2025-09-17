@@ -25,6 +25,7 @@ export default function Timeline() {
                       {item.year}
                     </span>
                   </h3>
+                  <div className="my-3 h-px w-full bg-gradient-to-r from-slate-600/80 via-slate-500/60 to-transparent" />
                   <p className="w-full leading-tight" dangerouslySetInnerHTML={{ __html: item.desc }}></p>
                 </div>
               </div>
