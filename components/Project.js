@@ -63,7 +63,7 @@ export default function Project() {
     const filteredProjects = selectedStack === 'All' && selectedCountry === 'All'
     ? item
     : item.filter(project => {
-      const stackMatch = selectedStack ==='All' || project.stack.includes(selectedStack);
+      // const stackMatch = selectedStack ==='All' || project.stack.includes(selectedStack);
       const countryMatch = selectedCountry === 'All' || project.country.includes(selectedCountry);
       return stackMatch && countryMatch;
     })
@@ -89,7 +89,7 @@ export default function Project() {
 
           <div className='flex flex-row justify-left pt-5'>
             {/* Filter */}
-            <div className='text-left my-5 mx-3'>
+            {/* <div className='text-left my-5 mx-3'>
               <label htmlFor="stackFilter" className="text-sm block font-regular text-gray-500 dark:text-white animate-fade-in">Filter by Stack:</label>
               <select
                 id="stackFilter"
@@ -100,7 +100,7 @@ export default function Project() {
                 <option value="All">All</option>
                 {dropdownOptions}
               </select>
-            </div>
+            </div> */}
 
             {/* Country Filter */}
             <div className='text-left my-5 mx-3'>

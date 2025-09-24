@@ -3,6 +3,7 @@ import Link from 'next/link';
 import arya from '../public/sagitarisandy.webp'
 import Image from 'next/image'
 import userData from '../constants/data'
+import ReactCountryFlag from 'react-country-flag'
 import logo1 from '../public/Logo/logo 1.png'
 import logo2 from '../public/Logo/logo 2.png'
 import logo3 from '../public/Logo/logo 3.png'
@@ -29,6 +30,14 @@ import logo22 from '../public/Logo/logo 22.png'
 export default function Hero() {
   const navLinks = userData.navLink;
   const [activeLinks, setActiveLinks] = useState(Array(navLinks.length).fill(false));
+
+  // Safeguard: handleClick was referenced but not defined; keep as a no-op to avoid runtime errors
+  const handleClick = () => {};
+
+  // ISO country codes for consistent cross-platform flag rendering (SVG)
+  const countryCodes = [
+    'US','ID','JP','AU','GB','SG','FR','ES','CA','MY','FI','HR','NL','VN','CH','SE','DE','PA','IT','BG','RO','UA','NO','PK'
+  ];
 
   const linkClick = (index) => {
     const newActiveLinks = [...activeLinks];
@@ -57,7 +66,18 @@ export default function Hero() {
                   Fullstack developer,
                 </h1>
                 <h1 className="text-3xl font-semibold text-gray-900 dark:text-white lg:text-3xl">
-                  has worked with several clients & startups from 🇺🇸🇮🇩🇯🇵🇦🇺🇬🇧🇸🇬🇫🇷🇪🇸🇨🇦🇲🇾🇫🇮🇭🇷🇳🇱🇻🇳🇨🇭🇸🇪🇩🇪🇵🇦🇮🇹🇧🇬🇷🇴🇺🇦🇳🇴🇵🇰
+                  has worked with several clients & startups from
+                  <span className="ml-2 inline-flex flex-wrap gap-1 align-middle">
+                    {countryCodes.map((code) => (
+                      <ReactCountryFlag
+                        key={code}
+                        countryCode={code}
+                        svg
+                        title={code}
+                        style={{ width: '1.15em', height: '1.15em' }}
+                      />
+                    ))}
+                  </span>
                 </h1>
                 {/* <div className="my-3 text-gray-800 dark:text-white">
                   <p className="mb-7">

@@ -32,14 +32,14 @@ export default function CardProject(props) {
               onMouseEnter={handleHover}
               onMouseLeave={handleMouseLeave}
         >
-          <p className="text-uppercase text-xs text-slate-800 dark:text-white">
+          {/* <p className="text-uppercase text-xs text-slate-800 dark:text-white">
             {props.project.type}
           </p>
           {props.project.stack.split(',').map((item) => (
             <span className="my-3 mr-2 inline-flex items-center justify-center rounded-full bg-slate-700 px-2 py-1 text-xs font-bold leading-none text-white">
               {item}
             </span>
-          ))}
+          ))} */}
           {props.project.country.split(',').map((item, index) => (
                     <span
                       key={index}
