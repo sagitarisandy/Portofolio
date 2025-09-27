@@ -68,9 +68,9 @@ export default function About() {
               <div className="flex flex-col items-center justify-center">
                 {item.name}
               </div>
-              <div className="italic text-slate-600 dark:text-slate-300">
+              {/* <div className="italic text-slate-600 dark:text-slate-300">
                 {item.year} experience
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

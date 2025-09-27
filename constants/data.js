@@ -5,7 +5,7 @@ const userData = {
   title: 'Building a successful product is a challenge. I am highly energetic in user experience design and interfaces',
   status: 'Fullstack Developer @SolarKita',
   country: '🇮🇩 Indonesia',
-  desc: 'Thanks to my family background in printing and design, I grew up surrounded by creativity and started using tools like Photoshop and CorelDraw from an early age. Over time, I combined this creative foundation with my technical background in Computer Engineering, which gave me strong skills in front-end and mobile development. I am proficient with React, React Native, and Flutter widgets, as well as full-stack development using Next.js and NestJS. Having collaborated with teams and clients across 22+ countries, I have developed strong communication and collaboration skills, which help me design solutions that truly align with user needs. My diverse experience from UI/UX design and mobile app development to IoT integration and cloud deployment continues to strengthen my ability to deliver user-centered digital products.',
+  desc: 'I am proficient with React, React Native, and Flutter widgets, as well as full-stack development using Next.js and NestJS. Having collaborated with teams and clients across 22+ countries, I have developed strong communication and collaboration skills, which help me design solutions that truly align with user needs. My diverse experience from ui/ux design and mobile app development to IoT integration and cloud deployment continues to strengthen my ability to deliver user-centered digital products.',
   navLink: [
     { href: '/', label: 'Arya' },
     { href: '/about', label: 'About' },
@@ -468,7 +468,7 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/file/d/1gvQ1Wz5gaeyQEH3IuOxm2YdSxEQVGcK9/view?usp=drive_link',
+      url: 'https://drive.google.com/file/d/13E1ZK_oTGrosbZsIbLvAKgFCcKumaTaT/view?usp=sharing',
     },
     {
       id: 2,
