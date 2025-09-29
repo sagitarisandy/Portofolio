@@ -57,7 +57,7 @@ export default function About() {
         <h2 className="mt-9 mb-5 text-left text-3xl font-semibold animate-fade-in">
         💪 Tools/technology I frequently use
         </h2>
-        <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2 animate-fade-in">
+        <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-3 animate-fade-in">
           {userData.techStack.map((item) => (
             <div className="justify-center overflow-hidden rounded-xl p-4 text-center shadow-md duration-500 ease-in-out hover:scale-105 hover:cursor-default hover:shadow-xl dark:bg-slate-800">
               <img

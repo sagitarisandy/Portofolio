@@ -5,7 +5,7 @@ const userData = {
   title: 'Building a successful product is a challenge. I am highly energetic in user experience design and interfaces',
   status: 'Fullstack Developer @SolarKita',
   country: '🇮🇩 Indonesia',
-  desc: 'I am proficient with React, React Native, and Flutter widgets, as well as full-stack development using Next.js and NestJS. Having collaborated with teams and clients across 22+ countries, I have developed strong communication and collaboration skills, which help me design solutions that truly align with user needs. My diverse experience from ui/ux design and mobile app development to IoT integration and cloud deployment continues to strengthen my ability to deliver user-centered digital products.',
+  desc: 'I am a full-stack developer with strong expertise in building and deploying scalable web and mobile applications. I specialize in React, Next.js, NestJS, Go Gin and Flutter, with hands-on experience in designing system architecture, databases, and reusable component libraries. My skills extend into DevOps, including deployment automation, CI/CD pipelines, containerization with Docker and Kubernetes, as well as cloud server management. I bring a holistic approach to creating secure, efficient, and user-centered digital products, from development to production deployment.',
   navLink: [
     { href: '/', label: 'Arya' },
     { href: '/about', label: 'About' },
@@ -183,7 +183,7 @@ const userData = {
       id: 3,
       title: 'SQM Property | 🇮🇩 Indonesia',
       year: 'Aug 2022 - Des 2024',
-  desc: '<ul style="list-style:none; padding:0; margin:0;"><li style="margin-bottom:12px;"><span>⚪ Listen to client and user needs, then discuss with the team.</span></li><li style="margin-bottom:12px;"><span>⚪ Research from various real applications and also the habits of various people.</span></li><li style="margin-bottom:12px;"><span>⚪ Recreate website and mobile displays with flow and UI that is easy for users to understand.</span></li><li style="margin-bottom:12px;"><span>⚪ Collaboration with the Front-End team on whether the UI will work effectively or not.</span></li><li style="margin-bottom:12px;"><span>⚪ Create image manipulation/editing using Photoshop, and illustrations using Illustrator.</span></li></ul>',
+  desc: '<ul style="list-style:none; padding:0; margin:0;"><li style="margin-bottom:12px;"><span>⚪ Create CRM design including workflow for Web App & Mobile App.</span></li><li style="margin-bottom:12px;"><span>⚪ Listen to stakeholders and user needs, then discuss with the team.</span></li><li style="margin-bottom:12px;"><span>⚪ Recreate website and mobile displays with flow and UI that is easy for users to understand.</span></li><li style="margin-bottom:12px;"><span>⚪ Create side project by VASANTA.Tbk for Estate Management Web App & Mobile App.</span></li>',
     },
   //   {
   //     id: 4,
@@ -315,6 +315,13 @@ const userData = {
     },
     {
       id: 8,
+      name: 'Gin',
+      type: 'containerized',
+      icon: '/img/icon/gin.png',
+      year: '1 month',
+    },
+    {
+      id: 8,
       name: 'Go',
       type: 'containerized',
       icon: '/img/icon/go.png',
@@ -325,6 +332,20 @@ const userData = {
       name: 'My SQL',
       type: 'containerized',
       icon: '/img/icon/my-sql.png',
+      year: '1 year',
+    },
+    {
+      id: 8,
+      name: 'Docker',
+      type: 'containerized',
+      icon: '/img/icon/docker.png',
+      year: '1 year',
+    },
+    {
+      id: 8,
+      name: 'Kubernetes',
+      type: 'containerized',
+      icon: '/img/icon/kubernetes.png',
       year: '1 year',
     },
     // {

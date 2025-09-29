@@ -66,8 +66,8 @@ export default function Hero() {
                   Fullstack developer,
                 </h1>
                 <h1 className="text-3xl font-semibold text-gray-900 dark:text-white lg:text-3xl">
-                  has worked with several clients & startups from
-                  <span className="ml-2 inline-flex flex-wrap gap-1 align-middle">
+                  with experience working across multiple companies and projects.
+                  {/* <span className="ml-2 inline-flex flex-wrap gap-1 align-middle">
                     {countryCodes.map((code) => (
                       <ReactCountryFlag
                         key={code}
@@ -77,7 +77,7 @@ export default function Hero() {
                         style={{ width: '1.15em', height: '1.15em' }}
                       />
                     ))}
-                  </span>
+                  </span> */}
                 </h1>
                 {/* <div className="my-3 text-gray-800 dark:text-white">
                   <p className="mb-7">
