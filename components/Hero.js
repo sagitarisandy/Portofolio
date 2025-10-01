@@ -95,7 +95,7 @@ export default function Hero() {
                     </p>
                 </div> */}
                 <div className='my-8'>
-                  <Link href="https://drive.google.com/file/d/13E1ZK_oTGrosbZsIbLvAKgFCcKumaTaT/view?usp=sharing" onClick={linkClick} legacyBehavior>
+                  <Link href="https://drive.google.com/drive/u/2/folders/1w9TiOE_j0IO-b8xrGThop-hMLMpfhzEZ" onClick={linkClick} legacyBehavior>
                     <a
                       className="h-10 rounded-md bg-gray-800 py-3 px-6 font-semibold text-white hover:bg-black transition duration-300 animate-fade-in"
                     >

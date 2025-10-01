@@ -348,6 +348,27 @@ const userData = {
       icon: '/img/icon/kubernetes.png',
       year: '1 year',
     },
+    {
+      id: 8,
+      name: 'Kafka',
+      type: 'containerized',
+      icon: '/img/icon/kafka.png',
+      year: '1 year',
+    },
+    {
+      id: 8,
+      name: 'Redis',
+      type: 'containerized',
+      icon: '/img/icon/redis.png',
+      year: '1 year',
+    },
+    {
+      id: 8,
+      name: 'Jenkins',
+      type: 'containerized',
+      icon: '/img/icon/jenkins.png',
+      year: '1 year',
+    },
     // {
     //   id: 1,
     //   name: 'illustrator',
@@ -489,7 +510,7 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/file/d/13E1ZK_oTGrosbZsIbLvAKgFCcKumaTaT/view?usp=sharing',
+      url: 'https://drive.google.com/drive/u/2/folders/1w9TiOE_j0IO-b8xrGThop-hMLMpfhzEZ',
     },
     {
       id: 2,
