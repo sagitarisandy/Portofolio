@@ -510,7 +510,7 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/drive/u/2/folders/1w9TiOE_j0IO-b8xrGThop-hMLMpfhzEZ',
+      url: 'https://drive.google.com/file/d/18jYFT4jE4tUh5pGrGs887WzsKUfQlacr/view?usp=sharing',
     },
     {
       id: 2,
